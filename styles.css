@@ -1,0 +1,108 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.nav-avatar{
+    height: 23px;
+    width: 23px;
+}
+.font-18{
+    font-size: 18px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.text-black-60{
+    opacity: 0.6;
+}
+.body-color{
+    background-color: #f5f7f8;
+}
+.w3-green {
+    color: #fff!important;
+    background-color: #4CAF50!important;
+}
+  .w3-right {
+    float: right!important;
+}
+.w3-small {
+    font-size: 12px!important;
+}
+.w3-badge {
+   border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    position: absolute;
+     top: 11px;
+    right: 20px;
+}
+.dropdown-toggle::after {
+    color: transparent;
+    border: none;
+}
+/* li.nav-item:hover{
+  background-color:#fff;
+} */
+nav.navbar{
+        background-color: #4d636f !important;
+         height: 55px !important;
+        border: none;
+    }
+
+.center-avatar{
+    width: 60px;
+}
+.avatar-name{
+    padding-top:15px;
+    padding-left: 75px;
+}
+.color3{
+    background-color: #435761;
+}
+.color4{
+    background-color: #303e45;
+}
+.color5{
+    background-color: #7d97a5;
+}
+.color6{
+    background-color: #57707d;
+}
+.color7{
+    background-color: #607d8b;
+}
+.color8{
+    background-color: #9eb1bb;
+}
+.color9{
+    background-color: #becbd2;
+}
+.color10{
+    background-color: #dfe5e8;
+}
+.color11{
+    background-color: #dfe5e8;
+}
+.font12{
+    font-size: 12px;
+}
+.hover1, .hover2{
+    color: white !important;
+}
+.hover1:hover{
+    background-color:#fff ;
+    color: black !important;
+}
+.hover2:hover{
+    background-color:#fff;
+    color: black !important;
+}
+.hover3:hover{
+    background-color: #898e91;
+    color: black;
+    height: 56px!important;
+}
+.nav-item .dropdown{
+    height: 56px!important;
+}

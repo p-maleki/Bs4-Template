@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parastu maleki hw4_1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+</head>
+<body class="body-color">
+
+<!--navbar-->
+<nav class="navbar navbar-expand-sm fixed-top justify-content-between color1 navbar-dark p-0">
+
+    <ul class="navbar-nav">
+        <li class="nav-item bg-dark" style="height:55px;" >
+            <a class="nav-link font-18 px-4 py-3 hover3 text-white"> <i class="fa fa-home mr-2" ></i> Logo</a>
+        </li>
+        <li class="nav-item" >
+            <a class="nav-link  font-18 px-4 py-3 hover2"><i class="fa fa-globe-americas"></i></a>
+        </li>
+        <li class="nav-item" >
+            <a class="nav-link  font-18 px-4 py-3 hover2"> <i class="fa fa-user"></i> </a>
+        </li>
+        <li class="nav-item" >
+            <a class="nav-link  light font-18 px-4 py-3 hover2"> <i class="fa fa-envelope"></i> </a>
+        </li>
+        <li class="nav-item " >
+         <div class="dropdown">
+            <li class="dropdown  hover3"><a class="dropdown-toggle " data-toggle="dropdown" href="#"><i class="fa fa-bell" style="color:white; font-size:15px; margin:20px"></i> <span class="w3-badge w3-right w3-small w3-green">3</span></a>
+               
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#"><h6>One new friend request</h6></a>
+                          <a class="dropdown-item" href="#"> <h6>John Doe posted on your wall</h6></a>
+                          <a class="dropdown-item" href="#">  <h6>Jane likes your post</h6></a>
+                        </div>
+                      </div>
+                    </div>
+              </li>
+        </li>
+    </ul>
+    <a class="px-4 py-3 hover2">
+        <img src="images/avatar2.png" class="rounded-circle nav-avatar  ">
+    </a>
+</nav>
+<!--body-->
+<div class="container text-center mt-80" style="max-width: 1400px; top: 80px;">
+    <div class="row">
+        <!--column1-->
+        <div class="col-md-3 ">
+            <div class="card mb-4 shadow">
+                <h4 class="card-title text-center mt-2 font-weight-normal">My Profile</h4>
+                <img class="card-img-top rounded-circle col-6 mx-auto d-block" src="images/avatar3.png"  style="width:100%">
+                <div class="card-body">
+                    <hr>
+                    <p class="text-left"><i class="fa fa-pencil-alt"> </i> Designer, UI</p>
+                    <p class="text-left"><i class="fa fa-home"> </i> London, UK</p>
+                    <p class="text-left"><i class="fa fa-birthday-cake"> </i> April 1, 1988</p>
+                </div>
+            </div>
+
+            <!--list accordion-->
+            <div id="accordion" class="shadow mb-4">
+                <div class="card" >
+                    <div class="card-text" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn collapsed text-light col-12 rounded-0 color5 text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fas fa-circle-notch"></i> My Groups
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Some text..
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn  collapsed text-light col-12 rounded-0 color5 text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fas fa-calendar-check"></i> My Events
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Some other text..
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-text  " id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn collapsed text-light col-12 rounded-0 color5 text-left" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fas fa-users fa-fw"></i> My Photos
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row mb-3">
+                                <img class="col-6 h-100 pr-2" src="lights.jpg">
+                                <img class="col-6 h-100 pl-2" src="nature.jpg">
+                            </div>
+                            <div class="row mb-3">
+                                <img class="col-6 h-100 pr-2" src="mountains.jpg">
+                                <img class="col-6 h-100 pl-2" src="forest.jpg">
+                            </div>
+                            <div class="row">
+                                <img class="col-6 h-100 pr-2" src="nature.jpg">
+                                <img class="col-6 h-100 pl-2" src="snow.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interests -->
+            <div class="card mb-4 py-3 shadow">
+                <div class=" card-text text-left px-3">
+                    <p>Interests</p>
+                    <p>
+                        <span class="text-light bg-dark font12 px-2">News</span>
+                        <span class="text-light color2 font12 px-2">W3Schools</span>
+                        <span class="text-light  bg-dark font12 px-2">Labels</span>
+                        <span class="text-light bg-dark  font12 px-2">Games</span>
+                        <span class="text-light color6 font12 px-2">Friends</span>
+                        <span class="color7 font12 px-2">Games</span>
+                        <span class="color5 font12 px-2">Friends</span>
+                        <span class="color8 font12 px-2">Food</span>
+                        <span class="bg-secondary font12 px-2">Design</span>
+                        <span class="color10 font12 px-2">Art</span>
+                        <span class="color11 font12 px-2">Photos</span>
+                    </p>
+                </div>
+            </div>
+
+            <!--alert-->
+            <div class="alert color11 alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" style="background-color: #dfe5e8">&times;</button>
+                <p class="text-left"><strong>Hey!</strong></p>
+                <p class="text-left">
+                    People are looking at your profile. Find out who.
+                </p>
+            </div>
+
+
+        </div>
+        <!--column2-->
+        <div class="col-md-7">
+            <!--center box1-->
+            <div class="row mb-4">
+                <div class="card col-12 py-3 shadow" >
+                    <div class="card-body">
+                        <p class="card-text text-left text-black-60">Social Media template by w3.css</p>
+                        <input type="text" class="container-fluid mb-3 py-2 " id="usr" value="Status: Feeling Blue">
+                        <button class="btn float-left rounded-0"> <i class="fa fa-pencil-alt"></i> Post</button>
+                    </div>
+                </div>
+
+            </div>
+            <!--center box2-->
+            <div class="row mb-4">
+                <div class="card col-12 py-3 shadow">
+                    <div class="card-title pt-2">
+                        <img src="images/avatar2.png" class="center-avatar float-left rounded-circle">
+                        <span class="text-black-60 float-right"> 1 min</span>
+                        <h4 class="font-weight-normal text-left avatar-name">John Doe</h4>
+                    </div>
+                    <hr>
+                    <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="row">
+                        <img src="images/lights.jpg" class="col-6 h-100">
+                        <img src="images/nature.jpg" class="col-6 h-100" >
+                    </div>
+                    <div class="row mt-2">
+                        <button class="btn text-left text-light color1 rounded-0 ml-3 "> <i class="fas fa-thumbs-up"></i> Like</button>
+                        <button class="btn text-left text-light color1 rounded-0 ml-2"> <i class="fas fa-comment"></i> Comment</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!--center box3-->
+            <div class="row mb-4">
+                <div class="card col-12 py-3 shadow">
+                    <div class="card-title pt-2">
+                        <img src="images/avatar5.png" class="center-avatar float-left rounded-circle">
+                        <span class="text-black-60 float-right"> 16 min</span>
+                        <h4 class="font-weight-normal text-left avatar-name">John Doe</h4>
+                    </div>
+                    <hr>
+                    <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <div class="row mt-2">
+                        <button class="btn text-left text-light color1 rounded-0 ml-3 "> <i class="fas fa-thumbs-up"></i> Like</button>
+                        <button class="btn text-left text-light color1 rounded-0 ml-2"> <i class="fas fa-comment"></i> Comment</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!--center box4-->
+            <div class="row mb-4">
+                <div class="card col-12 py-3 shadow">
+                    <div class="card-title pt-2">
+                        <img src="images/avatar6.png" class="center-avatar float-left rounded-circle">
+                        <span class="text-black-60 float-right"> 1 min</span>
+                        <h4 class="font-weight-normal text-left avatar-name">John Doe</h4>
+                    </div>
+                    <hr>
+                    <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="row">
+                        <img src="images/nature.jpg" class="col-12 h-100" >
+                    </div>
+                    <div class="row mt-2">
+                        <button class="btn text-left text-light color1 rounded-0 ml-3 "> <i class="fas fa-thumbs-up"></i> Like</button>
+                        <button class="btn text-left text-light color1 rounded-0 ml-2"> <i class="fas fa-comment"></i> Comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--column3-->
+        <div class="col-md-2">
+            <div class="card container-fluid pb-3 mb-4 shadow">
+                <p class="card-title text-center mt-2">Upcoming Events:</p>
+                <img class="card-img-top" src="images/forest.jpg" alt="Card image" style="width:100%">
+
+                    <p class="card-text text-center"><strong>Holiday</strong></p>
+                    <p class="text-center">Friday 15:00</p>
+                    <a href="#" class="btn btn-primary col-12 text-center rounded-0 text-dark border-0 hover1" style="background-color: #dfe5e8">Info</a>
+            </div>
+
+            <div class="card container-fluid pb-3 mb-4 shadow">
+                <p class="card-title text-center mt-2">Friend Request</p>
+                <img class="card-img-top" src="images/avatar6.png" alt="Card image" style="width:100%">
+                <p class="text-center">Jane Doe</p>
+                <div class="row m-1">
+                    <button class="btn col-6 p-0 bg-success text-light rounded-0 py-1" style="opacity: 0.6"> <i class="fas fa-check"></i></button>
+                    <button class="btn col-6 p-0 bg-danger text-light rounded-0 py-1" style="opacity: 0.6"> <i class="fas fa-check"></i></button>
+                </div>
+            </div>
+
+            <div class="card container-fluid p-4 mb-4 shadow" >
+                ADS
+            </div>
+
+            <div class="card container-fluid p-5 shadow">
+                <i class="fas fa-bug" style="font-size: 36px"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="container-fluid">
+    <div class="row color3 p-4 text-light">
+        <h5>Footer</h5>
+    </div>
+    <div class="row color4 text-light p-2 pl-4">
+        <hp>
+            Powered by <u><a href="#" class="text-light ">Parastu Maleki </a></u>
+        </hp>
+    </div>
+</div>
+
+
+</body>
+</html>
